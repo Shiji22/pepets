@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(black, gray) no-repeat center center;
+    height: 100vh;
+
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+
+}
+
+.tagline{
+    background-color: white;
+    font-size: 3rem;
+    padding: 10px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+#pic-container{
+   
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    overflow-y: scroll ;
+    background-color: gray;
+    width: 90%;
+    height: 900px;
+    gap: 10px;
+    border-radius: 20px;
+}
+
+.waifu-img{
+    width: 300px;
+    height: 400px;
+    border-radius: 20px;
+}
